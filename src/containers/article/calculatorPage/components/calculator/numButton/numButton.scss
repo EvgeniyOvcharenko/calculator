@@ -1,0 +1,14 @@
+.calculator__operand-button {
+  background-color: rgb(57, 57, 226);
+  padding: 20px 0;
+  min-width: 30%;
+  font-size: 50px;
+  margin-top: 3%;
+  border-radius: 10px;
+  &:nth-last-child(2) {
+    width: 65%;
+  }
+  &:active{
+    background-color: blue;
+  }
+}

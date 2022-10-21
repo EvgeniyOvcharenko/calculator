@@ -1,0 +1,10 @@
+.calculator__operator-button{
+  border-radius: 50%;
+  background-color: rgb(233, 233, 24);
+  width: 70%;
+  font-size: 40px;
+  margin-top: 10px;
+  &:active{
+    background-color: yellow;
+  }
+}
